@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive admin dashboard and web application ui kit. ">
+    <meta name="keywords" content="blank, starter">
+
+    <title>Bayer &mdash; Systema Ganado</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-left sidebar-light sidebar-expand-lg">
+      <header class="sidebar-header" style="background-color: white;color:#888888">
+        <a class="logo-icon" href="#"><img src="assets/img/bayer-logo.png" alt="logo icon"></a>
+        <span class="logo">
+          <!--<a href="#"><img src="assets/img/logo-light-bayer.png" alt="logo"></a>-->
+		Bayer
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <li class="menu-category">Preview</li>
+
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link" href="index.html">
+              <span class="icon fa fa-home"></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="ingreso.html">
+              <span class="icon fa fa-edit"></span>
+              <span class="title">Ingreso</span>
+            </a>
+          </li>
+
+          <li class="menu-item active">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-search"></span>
+              <span class="title">Consulta</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="consulta_tag.html">
+                  <span class="dot"></span>
+                  <span class="title">Por Tag</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="consulta_lote.html">
+                  <span class="dot"></span>
+                  <span class="title">Por Lote</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+    <!-- Topbar -->
+    <header class="topbar topbar-inverse bg-info">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+	<span class="sidebar-toggler"><img src="assets/img/logoTop.png">
+	&nbsp;&nbsp;&nbsp;
+	Bayer
+	<span>
+      </div>
+
+      <div class="topbar-right">
+        <ul class="topbar-btns">
+
+          <!-- Notifications -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-bell"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-hover media-list-divided media-list-xs">
+                <a class="media media-new" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user registered</p>
+                    <time datetime="2017-07-14 20:00">Just now</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+                  <div class="media-body">
+                    <p>New order received</p>
+                    <time datetime="2017-07-14 20:00">2 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+                  <div class="media-body">
+                    <p>Refund request from <b>Ashlyn Culotta</b></p>
+                    <time datetime="2017-07-14 20:00">24 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-primary"><i class="ti-money"></i></span>
+                  <div class="media-body">
+                    <p>New payment has made through PayPal</p>
+                    <time datetime="2017-07-14 20:00">53 min ago</time>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all notifications</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Notifications -->
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+
+    <!-- Main container -->
+    <main class="main-container">
+      <header class="header" style="margin-bottom:0px;">
+        <div class="header-bar">
+          <h2>Enfermería</h2>
+          
+        </div>
+      </header>
+
+      <div class="main-content">
+          <div class="card">
+ 
+
+                <div class="card-body">
+                    <div class="row">
+    
+    
+                    	<div class="col-md-4">
+                        	
+   
+                        	<div class="form-group">
+                          		<label class="require" for="input-required">Fecha de Ingreso</label>
+                          		<input type="text" class="form-control" id="input-required" name="fecha">
+                        	</div>
+                      	</div>
+
+                        <div class="col-md-4">
+                          
+    
+                          <div class="form-group">
+                              <label class="require" for="input-required">Días de tratamiento</label>
+                              <input type="text" class="form-control" id="input-required" name="dias">
+                          </div>
+                        </div>
+
+                      	<div class="col-md-4">
+                        	
+    
+                        	<div class="form-group">
+                          		<label class="require" for="input-required">Tag ID</label>
+                          		<input type="text" class="form-control" id="input-required" name="id">
+                        	</div>
+                      	</div>
+    
+						            
+
+                      	<div class="col-md-4">
+                        	<hr>
+    
+                        	<div class="form-group">
+                          		<label class="require" for="input-required">Corral</label>
+                          		<input type="text" class="form-control" id="input-required" name="corral">
+                        	</div>
+                      	</div>
+
+                      	<div class="col-md-4">
+                        	<hr>
+    
+                        	<div class="form-group">
+                          		<label class="require" for="input-required">Lote</label>
+                          		<input type="text" class="form-control" id="input-required" name="lote">
+                        	</div>
+                      	</div>
+
+                        <div class="col-md-4">
+                          <hr>
+    
+                          <div class="form-group">
+                              <label class="require" for="input-required">Peso</label>
+                              <input type="text" class="form-control" id="input-required" name="peso">
+                          </div>
+                        </div>
+
+                      	<div class="col-md-3">
+                        	<hr>
+    
+                        	<div class="form-group">
+                          		<label class="require" for="input-required">Temperatura</label>
+                          		<input type="text" class="form-control" id="input-required" name="temperatura">
+                        	</div>
+                      	</div>
+
+    
+                      
+                      <div class="col-md-3">
+                        <hr>
+                        <label class="require" for="input-required">Padecimiento</label>
+                        <div class="form-group">
+                          
+                          <div class="btn-group bootstrap-select show-tick">
+                            <select data-provide="selectpicker" multiple="" data-actions-box="true" class="" tabindex="-98" title="Nada Seleccionado">
+                              <option>Garraptas</option>
+                              <option>Digestivo</option>
+                              <option>Moquillo</option>
+                              <option>Locomotor</option>
+                              <option>Nervioso</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+     	                
+                      <div class="col-md-3">
+                        <hr>
+                        <label class="require" for="input-required">Medicamento</label>
+                        <div class="form-group">
+                          
+                          <div class="btn-group bootstrap-select show-tick">
+                            <select data-provide="selectpicker" multiple="" data-actions-box="true" class="" tabindex="-98" title="Nada Seleccionado">
+                              <option>Fluxabac LA 1/10</option>
+                              <option>Tetraback LA 1/10</option>
+                              <option>Baytril Max LA 1/13.5</option>
+                              <option>Fluxavet 2/45</option>
+                              <option>Dipirona 4x50</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-3">
+                        <hr>
+                        <label class="require" for="input-required">Tratamiento</label>
+                        <div class="form-group">
+                          
+                          <div class="btn-group bootstrap-select show-tick">
+                            <select data-provide="selectpicker"  data-actions-box="true" class="" tabindex="-98" title="Nada Seleccionado">
+                              <option>Primero</option>
+                              <option>Segudo</option>
+                              <option>Tercero</option>
+                              <option>Cuarto</option>
+                              <option>Quinto</option>
+                              <option>Sexto</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+						
+          						<div class="col-md-12">
+          							<hr>
+          							<div class="file-group">
+          								<button class="btn btn-block btn-primary file-browser" type="button">Actualizar Expediente</button>
+          							</div>
+          						</div>
+                      	
+    
+                    </div>
+                  </div>
+            </div>
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="https://www.bayer.com/">Bayer AG</a>. All rights reserved.</p>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Condiciones Generales de uso</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aviso de privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Imprint</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="assets/data/quickview-global.html">
+      <div class="spinner-linear">
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- END Global quickview -->
+
+    <!-- Scripts -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+      });
+    </script>
+
+  </body>
+</html>
